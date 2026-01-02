@@ -13,6 +13,6 @@ terraform {
 # Example resource that demonstrates the workflow is functioning
 resource "null_resource" "example" {
   triggers = {
-    timestamp = timestamp()
+    value = "A example resource that does nothing!"
   }
 }
